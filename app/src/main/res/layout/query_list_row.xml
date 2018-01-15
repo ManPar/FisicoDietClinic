@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABC Pharma"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:id="@+id/id_title"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="address"
+        android:layout_marginTop="4dp"
+        android:textSize="15dp"
+        android:id="@+id/id_discription"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimaryDark"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scheduled Time"
+        android:layout_marginTop="4dp"
+        android:id="@+id/id_reply"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="10dp"
+        />
+
+
+</LinearLayout>

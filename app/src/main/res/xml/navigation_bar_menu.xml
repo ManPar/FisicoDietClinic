@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_diet"
+        icon="@drawable/ic_banda"
+        icon_height="32dp"
+        title="Calls"
+        />
+    <tab
+        id="@+id/tab_upload"
+        icon="@mipmap/ic_launcher"
+        title="Groups"
+         />
+    <tab
+        id="@+id/tab_track"
+        icon="@mipmap/ic_launcher"
+        title="Chats"
+        />
+</tabs>

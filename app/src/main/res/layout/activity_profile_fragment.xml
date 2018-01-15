@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@+id/activity_landing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <ImageView
+            android:background="@color/colorAccent"
+            android:id="@+id/img_background"
+
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="24"
+            android:id="@+id/bmi_count"
+            android:gravity="center"
+            android:src="@drawable/circleprofle"
+
+            android:layout_below="@+id/img_background"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-40dp"
+
+            />
+
+    </RelativeLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    android:id="@+id/userID"
+    android:layout_gravity="center"
+    android:text="manya@gmail.com"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/card_album_radius"
+        android:id="@+id/action_bmi"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:textColor="@color/colorPrimary"
+            android:text="BMI CALCULATOR"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/card_album_radius"
+        android:id="@+id/action_ask"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:textColor="@color/colorPrimary"
+    android:text="ASK A QUERY"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/card_album_radius"
+        android:id="@+id/action_upload"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="20dp"
+            android:text="UPLOAD IMAGES"/>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

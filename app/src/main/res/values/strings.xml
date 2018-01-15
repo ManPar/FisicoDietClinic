@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Arogyam Nutritions</string>
+    <string name="fist_tab">Diet</string>
+    <string name="second_tab">Blog</string>
+    <string name="third_tab">Profile</string>
+    <string name="forth_tab">Profile</string>
+</resources>
